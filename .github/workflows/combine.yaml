@@ -10,11 +10,11 @@ jobs:
     name: job1
     steps:
       - uses: actions/checkout@v3
-      - uses: ./.github/actions/main.yaml
+      - uses: ./.github/actions/main
 
   deploy-2:
     runs-on: ubuntu-latest
     name: job2
     steps:
       - uses: actions/checkout@v3
-      - uses: ./.github/actions/second.yaml
+      - uses: ./.github/actions/second
